@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-chatbot-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["portfolio", "chatbot", "openai", "express"],
+  "author": "Aaron Lim",
+  "license": "ISC",
+  "description": "Backend server for portfolio chatbot with OpenAI integration",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "openai": "^4.20.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
